@@ -1,10 +1,21 @@
+import { useDispatch } from "react-redux";
 import ytlogo from "../assets/ytlogo.jpg";
+import { toggleMenu } from "../utils/appSlice";
 
 const Header = () => {
+  const dispatch = useDispatch();
+
+  const toggleMenuHandler = () => {
+    dispatch(toggleMenu());
+  };
+
   return (
-    <div className="flex items-center justify-between px-4 py-3 shadow-lg">
+    <div className="bg-black text-white flex items-center justify-between px-4 py-3 shadow-lg">
       <div className="flex items-center gap-4">
-        <button className="text-2xl p-2 bg-black hover:bg-gray-50 rounded-full transition-colors cursor-pointer">
+        <button
+          className="text-2xl p-2 bg-black hover:bg-gray-50 rounded-full transition-colors cursor-pointer"
+          onClick={toggleMenuHandler}
+        >
           ☰
         </button>
         <img className="h-7 cursor-pointer" alt="youtube-logo" src={ytlogo} />

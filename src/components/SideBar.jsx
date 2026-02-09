@@ -1,4 +1,10 @@
+import { useSelector } from "react-redux";
+
 const SideBar = () => {
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
+
+  if (!isMenuOpen) return null;
+
   return (
     <div>
       <div className="font-semibold pl-2 text-center">
