@@ -107,6 +107,248 @@ const SideBar = () => {
           </ul>
         </div>
       </div>
+      <hr className="my-3 opacity-25"></hr>
+      <div className="font-bold pl-2">
+        <div className="">
+          <div className="pt-3 pb-2 px-3">
+            <span className="font-semibold">You {">"} </span>
+          </div>
+          <ul className="py-2 list-none">
+            <li>
+              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 1"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDk4YkDE4f90PcfSzAjJ4_fvDMRJzYJ3oBEw&s"
+                />
+                <span className="ml-3 text-left font-normal">History</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 2"
+                  src="https://static.vecteezy.com/system/resources/thumbnails/049/624/353/small/party-playlist-icon-design-vector.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Playlists</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 3"
+                  src="https://i.pinimg.com/736x/dc/dd/bd/dcddbdbf83b3846787a9b5c2e2cd2ba5.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Watch later</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 4"
+                  src="https://png.pngtree.com/png-vector/20190329/ourlarge/pngtree-vector-like-icon-png-image_889403.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Liked videos</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 4"
+                  src="https://static.vecteezy.com/system/resources/previews/014/720/450/non_2x/video-start-button-icon-with-circle-on-black-background-illustration-free-vector.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Your videos</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <span className="ml-3 text-left text-l font-normal">⌵</span>
+                <span className="ml-6 text-left font-normal pt-1">
+                  Show more
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr className="my-3 opacity-25"></hr>
+      <div className="font-bold pl-2">
+        <div className="">
+          <div className="pt-3 pb-2 px-3">
+            <span className="font-semibold">Explore</span>
+          </div>
+          <ul className="py-2 list-none">
+            <li>
+              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 1"
+                  src="https://i.pinimg.com/474x/71/76/8d/71768de07d01758268930d8247e9c366.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Shopping</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 2"
+                  src="https://i.pinimg.com/474x/1e/9d/c2/1e9dc24db36c9226da76585bd0314b19.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Music</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 3"
+                  src="https://i.pinimg.com/736x/da/2c/d3/da2cd3ad3c311d1db8d42819c9f49b04.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Movies</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <span className="ml-3 text-left text-l font-normal">⌵</span>
+                <span className="ml-6 text-left font-normal pt-1">
+                  Show more
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr className="my-3 opacity-25"></hr>
+      <div className="font-bold pl-2">
+        <div className="">
+          <div className="pt-3 pb-2 px-3">
+            <span className="font-semibold">More from YouTube</span>
+          </div>
+          <ul className="py-2 list-none">
+            <li>
+              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 1"
+                  src="https://i.pinimg.com/736x/50/66/1d/50661d782c12872a1a20de032267147c.jpg"
+                />
+                <span className="ml-3 text-left font-normal">
+                  YouTube Premium
+                </span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 2"
+                  src="https://i.pinimg.com/736x/08/c6/cf/08c6cfbf8bc064ea723c6b076a8d8732.jpg"
+                />
+                <span className="ml-3 text-left font-normal">
+                  YouTube Studio
+                </span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 3"
+                  src="https://i.pinimg.com/736x/b2/1b/09/b21b095b4cec3e29df22f98b7f6dbc52.jpg"
+                />
+                <span className="ml-3 text-left font-normal">
+                  YouTube Music
+                </span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 3"
+                  src="https://i.pinimg.com/280x280_RS/fb/41/d0/fb41d0fd06e2fe35b8fb105b50f33e3f.jpg"
+                />
+                <span className="ml-3 text-left font-normal">YouTube Kids</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <span className="ml-3 text-left text-l font-normal">⌵</span>
+                <span className="ml-6 text-left font-normal pt-1">
+                  Show more
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr className="my-3 opacity-25"></hr>
+      <div className="font-bold pl-2">
+        <div className="">
+          <div className="pt-3 pb-2 px-3">
+            <span className="font-semibold">More from YouTube</span>
+          </div>
+          <ul className="py-2 list-none">
+            <li>
+              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 1"
+                  src="https://i.pinimg.com/1200x/7c/51/da/7c51daa2cfcc85dd46184ed86ec221b9.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Settings</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 2"
+                  src="https://i.pinimg.com/236x/d3/76/ac/d376ac534279483b67406042df279cf8.jpg"
+                />
+                <span className="ml-3 text-left font-normal">
+                  Report history
+                </span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 3"
+                  src="https://static.vecteezy.com/system/resources/thumbnails/043/914/051/small/ask-for-help-line-inverted-icon-design-vector.jpg"
+                />
+                <span className="ml-3 text-left font-normal">Help</span>
+              </button>
+            </li>
+            <li>
+              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+                <img
+                  className="h-10 w-10 rounded-full object-cover"
+                  alt="channel 3"
+                  src="https://png.pngtree.com/png-vector/20220704/ourlarge/pngtree-customer-reviews-icon-flat-design-feedback-user-interface-quality-vector-png-image_24973946.jpg"
+                />
+                <span className="ml-3 text-left font-normal">
+                  Send feedback
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr className="my-3 opacity-25"></hr>
+      <div className="pl-2 text-gray-700">
+        <div>
+          <div className="pt-3 pb-2 px-3">
+            <span className="font-semibold">© 2026 Google LLC</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
