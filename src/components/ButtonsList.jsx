@@ -19,7 +19,7 @@ const ButtonsList = () => {
   return (
     <div className="flex text-white cursor-pointer">
       {list.map((name) => (
-        <Button name={name} />
+        <Button key={name} name={name} />
       ))}
     </div>
   );

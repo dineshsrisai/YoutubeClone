@@ -8,7 +8,7 @@ const SideBar = () => {
   return (
     <div>
       <div className="font-semibold pl-2 text-center">
-        <button className="cursor-pointer border border-black focus:outline-none focus:border-gray-50 mb-5 rounded-lg pr-15 flex">
+        <button className="cursor-pointer border border-black mb-5 rounded-lg pr-15 flex">
           <img
             className="h-8 mx-3"
             src="https://img.icons8.com/ios7/512/FFFFFF/home--v3.png"
@@ -16,7 +16,7 @@ const SideBar = () => {
           />
           <span className="pt-1 pb-2 mx-3">Home</span>
         </button>
-        <button className="cursor-pointer border border-black focus:outline-none focus:border-gray-50 rounded-lg pr-14 flex">
+        <button className="cursor-pointer border border-black rounded-lg pr-14 flex">
           <img
             className="h-8 mx-3"
             src="https://freepngimg.com/download/icon/search/10417-youtube-shorts-white.png"
@@ -33,7 +33,7 @@ const SideBar = () => {
           </div>
           <ul className="py-2 list-none">
             <li>
-              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 1"
@@ -43,7 +43,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 2"
@@ -53,7 +53,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
@@ -63,7 +63,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 4"
@@ -73,7 +73,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer ">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 5"
@@ -83,7 +83,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 6"
@@ -93,7 +93,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 7"
@@ -103,7 +103,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <span className="ml-3 text-left text-l font-normal">⌵</span>
                 <span className="ml-6 text-left font-normal pt-1">
                   Show more
@@ -121,7 +121,7 @@ const SideBar = () => {
           </div>
           <ul className="py-2 list-none">
             <li>
-              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 1"
@@ -131,7 +131,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 2"
@@ -141,7 +141,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
@@ -151,7 +151,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 4"
@@ -161,7 +161,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 4"
@@ -171,7 +171,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <span className="ml-3 text-left text-l font-normal">⌵</span>
                 <span className="ml-6 text-left font-normal pt-1">
                   Show more
@@ -189,7 +189,7 @@ const SideBar = () => {
           </div>
           <ul className="py-2 list-none">
             <li>
-              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 1"
@@ -199,7 +199,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 2"
@@ -209,7 +209,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
@@ -219,7 +219,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <span className="ml-3 text-left text-l font-normal">⌵</span>
                 <span className="ml-6 text-left font-normal pt-1">
                   Show more
@@ -237,7 +237,7 @@ const SideBar = () => {
           </div>
           <ul className="py-2 list-none">
             <li>
-              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 1"
@@ -249,7 +249,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 2"
@@ -261,7 +261,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
@@ -273,7 +273,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
@@ -283,7 +283,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <span className="ml-3 text-left text-l font-normal">⌵</span>
                 <span className="ml-6 text-left font-normal pt-1">
                   Show more
@@ -301,7 +301,7 @@ const SideBar = () => {
           </div>
           <ul className="py-2 list-none">
             <li>
-              <button className="w-full flex items-center px-3 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 1"
@@ -311,7 +311,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 2"
@@ -323,7 +323,7 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
@@ -333,11 +333,11 @@ const SideBar = () => {
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center px-3 py-1 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition-colors">
+              <button className="w-full flex items-center px-3 py-1 transition-colors cursor-pointer">
                 <img
                   className="h-10 w-10 rounded-full object-cover"
                   alt="channel 3"
-                  src="https://png.pngtree.com/png-vector/20220704/ourlarge/pngtree-customer-reviews-icon-flat-design-feedback-user-interface-quality-vector-png-image_24973946.jpg"
+                  src="https://thumbs.dreamstime.com/b/feedback-icon-trendy-design-style-feedback-icon-isolated-black-background-feedback-icon-trendy-design-style-feedback-icon-156691267.jpg"
                 />
                 <span className="ml-3 text-left font-normal">
                   Send feedback
@@ -350,7 +350,7 @@ const SideBar = () => {
       <hr className="my-3 opacity-25"></hr>
       <div className="pl-2 text-gray-700">
         <div>
-          <div className="pt-3 pb-2 px-3">
+          <div className="pt-2 pb-2 px-2 text-gray-500">
             <span className="font-semibold">© 2026 Google LLC</span>
           </div>
         </div>
