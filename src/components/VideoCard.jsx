@@ -4,12 +4,12 @@ const VideoCard = ({ info }) => {
   const { thumbnails, title, publishedAt, channelTitle } = snippet;
   const { viewCount } = statistics;
   return (
-    <div className="p-4 m-4 w-full max-w-sm rounded-lg cursor-pointer">
+    <div className="m-4 w-72 cursor-pointer">
       <img className="rounded-lg" alt="thumbnail" src={thumbnails.medium.url} />
       <ul>
         <li>{title}</li>
-        <li>{channelTitle}</li>
-        <li>{viewCount}</li>
+        <li className="font-bold py-2">{channelTitle}</li>
+        <li>{viewCount} views</li>
       </ul>
     </div>
   );
