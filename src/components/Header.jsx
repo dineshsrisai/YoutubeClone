@@ -13,7 +13,7 @@ const Header = () => {
     <div className="bg-black text-white flex items-center justify-between px-4 py-3 shadow-lg">
       <div className="flex items-center gap-4">
         <button
-          className="text-2xl p-2 bg-black hover:bg-gray-50 rounded-full transition-colors cursor-pointer"
+          className="text-2xl p-2 bg-black rounded-full transition-colors cursor-pointer"
           onClick={toggleMenuHandler}
         >
           ☰
@@ -27,7 +27,7 @@ const Header = () => {
           className="flex-1 border border-gray-300 rounded-l-full px-4 py-2 focus:outline-none focus:border-blue-500"
           placeholder="Search"
         />
-        <button className="border border-gray-300 border-l-0 rounded-r-full px-6 py-1.5 hover:bg-gray-50 transition-colors cursor-pointer">
+        <button className="border border-gray-300 border-l-0 rounded-r-full px-6 py-1.5 transition-colors cursor-pointer">
           <span className="inline-block scale-x-[-1] text-xl">⌕</span>
         </button>
       </div>

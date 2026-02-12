@@ -1,11 +1,11 @@
-import MainContainer from "./MainContainer";
+import { Outlet } from "react-router-dom";
 import SideBar from "./SideBar";
 
 const Body = () => {
   return (
     <div className="flex bg-black text-white -mb-10">
       <SideBar />
-      <MainContainer />
+      <Outlet />
     </div>
   );
 };
