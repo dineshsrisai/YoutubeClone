@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
@@ -14,7 +15,9 @@ const SideBar = () => {
             src="https://img.icons8.com/ios7/512/FFFFFF/home--v3.png"
             alt="home"
           />
-          <span className="pt-1 pb-2 mx-3">Home</span>
+          <Link to="/">
+            <span className="pt-1 pb-2 mx-3">Home</span>
+          </Link>
         </button>
         <button className="cursor-pointer border border-black rounded-lg pr-14 flex">
           <img
@@ -22,7 +25,9 @@ const SideBar = () => {
             src="https://freepngimg.com/download/icon/search/10417-youtube-shorts-white.png"
             alt="shorts"
           />
-          <span className="pt-1 pb-2 mx-3">Shorts</span>
+          <Link to="/">
+            <span className="pt-1 pb-2 mx-3">Shorts</span>
+          </Link>
         </button>
       </div>
       <hr className="my-3 opacity-25"></hr>
