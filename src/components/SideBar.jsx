@@ -7,7 +7,7 @@ const SideBar = () => {
   if (!isMenuOpen) return null;
 
   return (
-    <div>
+    <div className="fixed left-0 top-\[60px]\ h-[calc(100vh-60px)] w-64 bg-black overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900 hover:scrollbar-thumb-gray-600 pb-4">
       <div className="font-semibold pl-2 text-center">
         <button className="cursor-pointer border border-black mb-5 rounded-lg pr-15 flex">
           <img

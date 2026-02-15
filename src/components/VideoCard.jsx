@@ -1,7 +1,7 @@
 const VideoCard = ({ info }) => {
   console.log(info);
   const { snippet, statistics } = info;
-  const { thumbnails, title, publishedAt, channelTitle } = snippet;
+  const { thumbnails, title, channelTitle } = snippet;
   let { viewCount } = statistics;
 
   if (viewCount >= 1000000) {
@@ -11,17 +11,27 @@ const VideoCard = ({ info }) => {
   }
 
   return (
-    <div className="pl-20 m-4 w-96 cursor-pointer border rounded-lg border-gray-950 hover:border-gray-600">
-      <img
-        className="rounded-lg pr-20"
-        alt="thumbnail"
-        src={thumbnails.medium.url}
-      />
-      <ul>
-        <li className="font-semibold">{title}</li>
-        <li className="opacity-45 py-2">{channelTitle}</li>
-        <li className="opacity-45">{viewCount} views</li>
-      </ul>
+    <div className="w-full cursor-pointer">
+      <div className="relative w-full">
+        <img
+          className="rounded-xl w-full aspect-video object-cover"
+          alt="thumbnail"
+          src={thumbnails.standard.url}
+        />
+      </div>
+      <div className="flex gap-3 pt-3">
+        <div className="shrink-0">
+          <div className="w-9 h-9 rounded-full bg-gray-600"></div>
+        </div>
+
+        <div className="flex-1 min-w-0">
+          <h3 className="font-semibold text-sm leading-5 line-clamp-2 mb-1">
+            {title}
+          </h3>
+          <p className="text-xs text-gray-400">{channelTitle}</p>
+          <p className="text-xs text-gray-400">{viewCount} views</p>
+        </div>
+      </div>
     </div>
   );
 };
