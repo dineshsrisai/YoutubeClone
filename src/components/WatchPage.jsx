@@ -3,13 +3,14 @@ import { useDispatch } from "react-redux";
 import { closeMenu } from "../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 
-const WatchPage = () => {
+const WatchPage = ({ info }) => {
   const [searchParams] = useSearchParams();
-  console.log(searchParams.get("v"));
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(closeMenu());
   }, []);
+
   return (
     <div className="pl-4 pt-0">
       <iframe

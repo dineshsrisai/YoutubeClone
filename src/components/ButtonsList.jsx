@@ -13,6 +13,7 @@ const list = [
   "Mixes",
   "Recently uploaded",
   "New to you",
+  "DSA",
 ];
 
 const ButtonsList = () => {
