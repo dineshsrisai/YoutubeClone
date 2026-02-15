@@ -9,26 +9,27 @@ const SideBar = () => {
   return (
     <div className="fixed left-0 top-\[60px]\ h-[calc(100vh-60px)] w-64 bg-black overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900 hover:scrollbar-thumb-gray-600 pb-4">
       <div className="font-semibold pl-2 text-center">
-        <button className="cursor-pointer border border-black mb-5 rounded-lg pr-15 flex">
-          <img
-            className="h-8 mx-3"
-            src="https://img.icons8.com/ios7/512/FFFFFF/home--v3.png"
-            alt="home"
-          />
-          <Link to="/">
+        <Link to="/">
+          <button className="cursor-pointer border border-black mb-5 rounded-lg pr-15 flex">
+            <img
+              className="h-8 mx-3"
+              src="https://img.icons8.com/ios7/512/FFFFFF/home--v3.png"
+              alt="home"
+            />
+
             <span className="pt-1 pb-2 mx-3">Home</span>
-          </Link>
-        </button>
-        <button className="cursor-pointer border border-black rounded-lg pr-14 flex">
-          <img
-            className="h-8 mx-3"
-            src="https://freepngimg.com/download/icon/search/10417-youtube-shorts-white.png"
-            alt="shorts"
-          />
-          <Link to="/">
+          </button>
+        </Link>
+        <Link to="/">
+          <button className="cursor-pointer border border-black rounded-lg pr-14 flex">
+            <img
+              className="h-8 mx-3"
+              src="https://freepngimg.com/download/icon/search/10417-youtube-shorts-white.png"
+              alt="shorts"
+            />
             <span className="pt-1 pb-2 mx-3">Shorts</span>
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
       <hr className="my-3 opacity-25"></hr>
       <div className="font-bold pl-2">

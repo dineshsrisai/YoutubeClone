@@ -13,7 +13,7 @@ const Header = () => {
     <div className="bg-black text-white flex items-center justify-between px-2 md:px-4 py-3 shadow-lg sticky top-0 z-50">
       <div className="flex items-center gap-2 md:gap-4">
         <button
-          className="text-xl md:text-2xl p-2 bg-black rounded-full transition-colors cursor-pointer hover:bg-gray-800"
+          className="text-xl md:text-2xl p-2 bg-black rounded-full transition-colors cursor-pointer"
           onClick={toggleMenuHandler}
         >
           ☰

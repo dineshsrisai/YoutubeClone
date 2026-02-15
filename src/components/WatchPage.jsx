@@ -12,7 +12,7 @@ const WatchPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row gap-4 p-4 max-w-\[1800px]\ mx-auto">
+    <div className="flex flex-col lg:flex-row gap-4 p-4 max-w-\[1800px] mx-auto">
       <div className="flex-1">
         <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
           <iframe
@@ -26,10 +26,10 @@ const WatchPage = () => {
           ></iframe>
         </div>
 
-        <div className="mt-4"></div>
+        <div className="mt-4">{/* Video details can go here */}</div>
       </div>
 
-      <div className="hidden lg:block w-full lg:w-\[400px]\ xl:w-\[450px]\">
+      <div className="hidden lg:block w-full lg:w-/[400px] xl:w-[450px]">
         <div className="text-gray-400 text-sm">Related videos section</div>
       </div>
     </div>
