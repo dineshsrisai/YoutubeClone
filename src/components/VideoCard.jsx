@@ -2,7 +2,14 @@ const VideoCard = ({ info }) => {
   console.log(info);
   const { snippet, statistics } = info;
   const { thumbnails, title, publishedAt, channelTitle } = snippet;
-  const { viewCount } = statistics;
+  let { viewCount } = statistics;
+
+  if (viewCount >= 1000000) {
+    viewCount = (viewCount / 1000000).toFixed(1) + "M";
+  } else if (viewCount >= 1000) {
+    viewCount = (viewCount / 1000).toFixed(1) + "K";
+  }
+
   return (
     <div className="pl-20 m-4 w-96 cursor-pointer border rounded-lg border-gray-950 hover:border-gray-600">
       <img
