@@ -16,7 +16,7 @@ const WatchPage = () => {
       <div className="flex-1">
         <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
           <iframe
-            className="absolute top-0 left-0 w-full h-full rounded-xl"
+            className="absolute top-0 left-0 w-full h-full rounded-xl border border-gray-800"
             src={"https://www.youtube.com/embed/" + searchParams.get("v")}
             title="YouTube video player"
             frameBorder="0"
