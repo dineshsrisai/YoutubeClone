@@ -8,7 +8,7 @@ import js from "@eslint/js";
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
-
+  const [showSuggestions, setShowSuggestions] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => getSuggestions(), 200);
     return () => {
@@ -51,13 +51,15 @@ const Header = () => {
             placeholder="Search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
+            onFocus={(e) => setShowSuggestions(true)}
+            onBlur={(e) => setShowSuggestions(false)}
           />
           <button className="border border-gray-600 bg-black hover:bg-gray-900 border-l-0 rounded-r-full px-4 md:px-6 py-1.5 md:py-2 transition-colors cursor-pointer">
             <span className="inline-block scale-x-[-1] text-lg md:text-xl">
               ⌕
             </span>
           </button>
-          {suggestions.length > 0 && (
+          {showSuggestions && (
             <div className="absolute top-full left-0 w-[38rem] bg-gray-950 border border-gray-900 rounded-xl mt-2 shadow-2xl z-50">
               <ul className="text-sm md:text-base">
                 {suggestions.map((s) => (
